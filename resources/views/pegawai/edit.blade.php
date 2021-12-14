@@ -1,7 +1,7 @@
-<!DOCTYPE html>
-<html>
+@extends('layout.ceria')
+@section('title', 'ABSEN PEGAWAI')
 <head>
-	<title>Tutorial Membuat CRUD Pada Laravel - www.malasngoding.com</title>
+	<title>DATA PEGAWAI</title>
 </head>
 <body>
 
@@ -28,3 +28,4 @@
 
 </body>
 </html>
+@endsection
