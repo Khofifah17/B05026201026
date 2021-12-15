@@ -44,6 +44,7 @@
 
         .footer {
             text-align: right;
+            padding: 50 50 50 50;
         }
 
         .sidebar {
@@ -161,7 +162,7 @@
         <a href="/absen">Absen</a>
         <a href="/mutasi">Mutasi</a>
         <a href="/mouse">Mouse</a>
-        <a href="/eas">EAS</a>
+        <a href="/karyawan1">EAS-Karyawan</a>
     </div>
 
     <div class="container">

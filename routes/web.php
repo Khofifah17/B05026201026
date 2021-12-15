@@ -61,3 +61,10 @@ Route::post('/mouse/update','MouseController@update');
 Route::get('/mouse/hapus/{id}','MouseController@hapus');
 Route::get('/mouse/cari','MouseController@cari');
 Route::get('/mouse/detail/{id}','MouseController@view');
+
+Route::get('/karyawan1','Karyawan1Controller@index');
+Route::get('/karyawan1/tambah','Karyawan1Controller@tambah');
+Route::post('/karyawan1/store','Karyawan1Controller@store');
+Route::get('/karyawan1/edit/{id}','Karyawan1Controller@edit');
+Route::post('/karyawan1/update','Karyawan1Controller@update');
+Route::get('/karyawan1/hapus/{id}','Karyawan1Controller@hapus');
